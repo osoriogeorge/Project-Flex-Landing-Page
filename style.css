@@ -1,0 +1,106 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+    .header-container{
+    background: #1f2937;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+ 
+.header-logo  {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header .links {
+    list-style: none;
+    display: flex;
+    
+    
+}
+
+header .links li {
+    margin: 0 20px;
+}
+
+header .links a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .links a:hover {
+    color: #77aaff;
+}
+
+
+/* Banner */
+
+.banner {
+    background-color: #1f2937; 
+    padding: 20px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .banner-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px 20px;
+ }
+  
+  .banner-h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  
+  .banner-p {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #3882F6; 
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+
+  .banner-image{
+    width: 400px;
+    height: 200px;
+    background-color: darkgray;
+    color: #E5E7EB;
+    
+    
+  }
